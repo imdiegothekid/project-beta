@@ -1,0 +1,46 @@
+html  {
+    font-size: 100%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    background-color: $white;
+    height: 100%
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Inter', sans-serif;
+    color: $white;
+  }
+p {
+    font-family: 'Inter', sans-serif;
+    color: $white;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: $black;
+    font-weight: 400;
+    font-size: 48px;
+    margin: 0px;
+    padding-left: $padding*2;
+}
+
+.sonido {
+    border-bottom: 2px solid $black;
+    border-top: 2px solid $black;
+}
+
+.imagenes-sonido {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid $black;
+    overflow: hidden
+
+}
+
+.sonido1 {
+    border-left: 2px solid $black;
+    border-right: 2px solid $black;
+
+}

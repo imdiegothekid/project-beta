@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #000000;
+    align-items: center;
+
+
+  }
+  
+  .menu {
+    float: right;
+    padding: $padding*4;
+    font-size: 24px;
+  }
+  
+  .logo {
+    float: left;
+    padding: $padding*2;
+  }
+.logo-south {
+    
+    width: 232px;
+    
+    }
+    
+a.item {
+    color: $black;
+    margin-left: $padding*4;
+    text-decoration:none;
+}
+
+a.item:hover {
+    border: 2px solid $blue;
+}
+
