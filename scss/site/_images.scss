@@ -1,0 +1,14 @@
+.imagenes-sonido, .imagenes-distribuye {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid $black;
+    overflow: hidden
+
+}
+
+.sonido1, .distribuye2 {
+    border-left: 2px solid $black;
+    border-right: 2px solid $black;
+
+}
+

@@ -26,21 +26,109 @@ h1 {
     padding-left: $padding*2;
 }
 
-.sonido {
+.titulo {
     border-bottom: 2px solid $black;
     border-top: 2px solid $black;
 }
 
-.imagenes-sonido {
-    display: flex;
-    justify-content: space-around;
-    border-bottom: 2px solid $black;
-    overflow: hidden
 
+
+.todo-videoclip{
+    display: flex;
+    justify-content: space-between;
 }
 
-.sonido1 {
-    border-left: 2px solid $black;
-    border-right: 2px solid $black;
 
+img.videoclip1 {
+max-width: 66%;
+border-right: 2px solid $black;
+}
+
+div.texto-boton-videoclip {
+    font-family: 'Inter', sans-serif;
+    color: $black;
+    font-size: 24px;
+    padding: $padding*4;    
+}
+
+p.texto-videoclip {
+    color: $black;
+}
+
+.button {
+	background-color:$blue;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:$white;
+	font-size:24px;
+	padding:6px 12px;
+	text-decoration:none;  
+    margin-left: 42%;  
+    
+}
+
+.button:hover {
+	background-color:$fluor-green;
+    color: $black;
+}
+
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.cuadricula-bcg {
+    position: relative;
+    z-index: 0;
+    padding-top: $padding*20;
+    padding-bottom: $padding*6;
+    display:block;
+    margin: auto;
+    
+}
+
+div.texto-movil-padre{
+    height: 90px;
+    border-bottom: 2px solid $black;
+}
+
+div.texto-imagen {
+    position: relative;
+    z-index: 1;
+    color: $black;
+    top: -370px;
+    left: 290px;
+    
+}
+
+p.texto-imagen-item1, p.texto-imagen-item2, p.texto-imagen-item3 {
+    color: $black;
+    font-size: 48px;
+    margin: 0px 0px $padding*2 0px;
+}
+
+p.texto-imagen-item2 {
+    margin-left: 270px;
+}
+
+p.texto-imagen-item3 {
+    margin-left: 70px;
+}
+
+section.define-tu-imagen {
+    max-width: 100%;
+
+    overflow: hidden
+}
+
+.iphone {
+    position: relative;
+    z-index: 1;
+    color: $black;
+    top: -830px;
+    left: 800px;
+    
 }

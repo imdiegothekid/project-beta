@@ -1,0 +1,29 @@
+.newsletter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:50px;
+    background-color: $fluor-green;
+    border-bottom: 2px solid black;
+    padding-right: $padding*2;
+
+}
+
+
+p.newsletter-text {
+    color: $black;
+    font-size: 24px;
+    padding-left: $padding*2;
+}
+
+.input-newsletter, .boton-soft-black {
+    color: $black;
+    font-size: 24px;
+}
+
+.input-newsletter{
+    background-color: transparent;
+    border: none;
+    color: $black;
+}
