@@ -607,6 +607,11 @@ ul {
 
 .div5 {
   padding-left: 12px;
+  padding-top: 12px;
+}
+
+.svg-link {
+  text-decoration: none;
 }
 
 .parent-packs {
@@ -692,8 +697,4 @@ ul {
 .button-packs:active {
   position: relative;
   top: 1px;
-}
-
-.button-izq {
-  padding-top: 60px;
 }
