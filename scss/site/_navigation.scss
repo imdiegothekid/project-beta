@@ -25,11 +25,15 @@
     
 a.item {
     color: $black;
-    margin-left: $padding*4;
+    padding-left: $padding*4;
     text-decoration:none;
+    
+
+    
 }
 
 a.item:hover {
-    border: 2px solid $blue;
+    font-weight: 600;
+    
 }
 

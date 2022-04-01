@@ -1,4 +1,4 @@
-.imagenes-sonido, .imagenes-distribuye {
+.imagenes-sonido {
     display: flex;
     justify-content: space-around;
     border-bottom: 2px solid $black;
@@ -6,9 +6,23 @@
 
 }
 
-.sonido1, .distribuye2 {
+.sonido3{
+    border-left: 2px solid $black;
+
+}
+
+.distribuye2{
+    border-right: 2px solid $black;
+}
+
+.sonido1, .distribuye1 {
     border-left: 2px solid $black;
     border-right: 2px solid $black;
 
 }
 
+.imagenes-distribuye {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden
+}

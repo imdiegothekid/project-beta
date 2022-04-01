@@ -26,6 +26,16 @@ h1 {
     padding-left: $padding*2;
 }
 
+h5{
+    font-family: 'Inter', sans-serif;
+    color: $black;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0px;
+    padding-left: $padding*2;
+    padding-top: $padding*2;
+}
+
 .titulo {
     border-bottom: 2px solid $black;
     border-top: 2px solid $black;

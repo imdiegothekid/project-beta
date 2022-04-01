@@ -1,12 +1,13 @@
 .newsletter {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width:100%;
+    max-width:100%;
     height:50px;
     background-color: $fluor-green;
-    border-bottom: 2px solid black;
     padding-right: $padding*2;
+    border-top: 2px solid $black;
+    overflow: hidden;
 
 }
 
@@ -26,4 +27,60 @@ p.newsletter-text {
     background-color: transparent;
     border: none;
     color: $black;
+}
+
+.email-button {
+    padding-right: $padding*2;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border-top: 2px solid $black;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; 
+    border-right: 2px solid $black;}
+    .div2 { grid-area: 1 / 2 / 2 / 3; 
+        border-right: 2px solid $black;}
+    .div3 { grid-area: 1 / 3 / 2 / 4; 
+        border-right: 2px solid $black;}
+    .div4 { grid-area: 1 / 4 / 2 / 5;
+        border-right: 2px solid $black; }
+    .div5 { grid-area: 1 / 5 / 2 / 6; }
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.itemF {
+ padding-left: $padding*2;
+ text-decoration:none;
+ color: $black;
+}
+
+.itemF:hover {
+    font-weight: 600;
+}
+
+.direccion {
+    padding-left: $padding*2;
+}
+
+.itemD {
+    text-decoration:none;
+    color: $black;
+   }
+   
+   .itemD:hover {
+       font-weight: 600;
+   }
+   
+.div5 {
+    padding-left: $padding*2;
 }

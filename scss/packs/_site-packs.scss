@@ -1,0 +1,53 @@
+.parent-packs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border-top: 2px solid $black;
+    text-align: center;
+    }
+    
+    .div1-packs { grid-area: 1 / 1 / 2 / 2; 
+        border-right: 2px solid $black;}
+    
+    .div2-packs { grid-area: 1 / 2 / 2 / 3;
+        border-right: 2px solid $black; }
+    .div3-packs { grid-area: 1 / 3 / 2 / 4; }
+
+    .lista-packs {
+        color: $black;
+        list-style:none;
+        text-align: left;
+        padding-left: $padding*4;
+        padding-bottom: $padding*4;
+        font-size: 24px;
+    }
+
+    .button-packs {
+        background-color:$blue;
+        border-radius:28px;
+        display:inline-block;
+        cursor:pointer;
+        color:$white;
+        font-size:24px;
+        padding:6px 12px;
+        text-decoration:none;  
+        margin-bottom: $unit*4;  
+        
+    }
+    
+    .button-packs:hover {
+        background-color:$fluor-green;
+        color: $black;
+    }
+    
+    .button-packs:active {
+        position:relative;
+        top:1px;
+    }
+    
+
+.button-izq {
+    padding-top: $unit*10;
+}
